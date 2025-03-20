@@ -1,0 +1,29 @@
+{
+  "name": "git-judge",
+  "version": "1.0.0",
+  "description": "An ultra-advanced Git extension that rates your commits.",
+  "bin": {
+    "git-judge": "./bin/git-judge.js"
+  },
+  "scripts": {
+    "start": "node ./bin/git-judge.js"
+  },
+  "keywords": [
+    "git",
+    "extension",
+    "commit",
+    "judge",
+    "advanced",
+    "sentiment",
+    "emoji",
+    "pnpm",
+    "top"
+  ],
+  "author": "Niclas Wagener",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "sentiment": "^5.0.2",
+    "emoji-regex": "^10.2.1"
+  }
+}
